@@ -11,5 +11,5 @@ import SpriteKit
 typealias HandleContactType = (View) -> ()
 
 class View: SKSpriteNode {
-    var hanleContact: HandleContactType?
+    var handleContact: HandleContactType?
 }
